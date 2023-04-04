@@ -9,6 +9,7 @@ class Main {
 
     Scanner teclado = new Scanner(System.in);
       metros = teclado.nextInt();
+      teclado.close();
 
       centimetros = metros * 100;
 
